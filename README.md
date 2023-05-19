@@ -1,11 +1,11 @@
-About r-cleanrmd
-================
+About r-cleanrmd-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cleanrmd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pkg.garrickadenbuie.com/cleanrmd/, https://github.com/gadenbuie/cleanrmd
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-cleanrmd-feedstock/blob/main/LICENSE.txt)
 
 Summary: A collection of clean 'R Markdown' HTML document templates using classy-looking classless CSS styles. These documents use a minimal set of dependencies but still look great, making them suitable for use a package vignettes or for sharing results via email.
 
