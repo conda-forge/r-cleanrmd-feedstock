@@ -1,6 +1,5 @@
 {% set version = "0.1.1" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-cleanrmd
@@ -13,8 +12,7 @@ source:
   sha256: a6da62ccc183a77051967e633d52d8cb4b4aa8977cbf6d8b9ad75473277a1288
 
 build:
-  merge_build_host: true  # [win]
-  number: 1
+  number: 2
   noarch: generic
   rpaths:
     - lib/R/lib/
