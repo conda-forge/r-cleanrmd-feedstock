@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/cleanrmd_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/cleanrmd/cleanrmd_{{ version }}.tar.gz
-  sha256: a6da62ccc183a77051967e633d52d8cb4b4aa8977cbf6d8b9ad75473277a1288
+  sha256: 4efeec2af32f3ead9637d5837c94b13a94c2711c8b8c2754dfa8e8a1a46ea98f
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
